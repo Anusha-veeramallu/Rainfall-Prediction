@@ -3,11 +3,12 @@
 This project focuses on predicting rainfall using machine learning and time-series analysis. Accurate rainfall forecasting is vital for agriculture, water resource management, and disaster preparedness.
 
 ---
-# Team Members:
-   -Anusha Veeramallu
-   -Bekkam Devi
-   -Karthik Tantravahi
-   -Konada Siddardha
+    
+👥 Team Members:
+- Anusha Veeramallu
+- Bekkam Devi
+- Karthik Tantravahi
+- Konada Siddardha
 -----
 ## 📌 Project Overview
 - Build a classification model to predict rainfall rainfall occurrence.
