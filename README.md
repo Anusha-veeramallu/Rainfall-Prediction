@@ -4,10 +4,10 @@ This project focuses on predicting rainfall using machine learning and time-seri
 
 ---
 # Team Members:
--Anusha Veeramallu
--Bekkam Devi
--Karthik Tantravahi
--Konada Siddardha
+   -Anusha Veeramallu
+   -Bekkam Devi
+   -Karthik Tantravahi
+   -Konada Siddardha
 -----
 ## 📌 Project Overview
 - Build a classification model to predict rainfall rainfall occurrence.
