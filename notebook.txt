@@ -1,0 +1,128 @@
+# With all value
+
+LogisticRegression() : 
+Training Accuracy :  0.8900847867152836
+Validation Accuracy :  0.8341836734693878
+
+DecisionTreeClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.5535714285714286
+
+RandomForestClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.774234693877551
+
+GaussianNB() : 
+Training Accuracy :  0.8718095154417256
+Validation Accuracy :  0.8137755102040817
+
+SVC(probability=True) : 
+Training Accuracy :  0.8941264332469359
+Validation Accuracy :  0.8367346938775511 
+
+      precision    recall  f1-score   support
+
+         0.0       0.71      0.36      0.48        14
+         1.0       0.74      0.93      0.83        28
+
+    accuracy                           0.74        42
+   macro avg       0.73      0.64      0.65        42
+weighted avg       0.73      0.74      0.71        42
+
+Select - SVC
+
+# After reshampling
+LogisticRegression() : 
+Training Accuracy :  0.8944854537559704
+Validation Accuracy :  0.8329519450800915
+
+DecisionTreeClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.7025171624713958
+
+RandomForestClassifier() : 
+Training Accuracy :  0.9999999999999999
+Validation Accuracy :  0.8340961098398169
+
+GaussianNB() : 
+Training Accuracy :  0.8805905340859748
+Validation Accuracy :  0.8009153318077803
+
+SVC(probability=True) : 
+Training Accuracy :  0.9056665219279201
+Validation Accuracy :  0.8421052631578947
+
+    precision    recall  f1-score   support
+
+         0.0       0.82      0.78      0.80        23
+         1.0       0.75      0.79      0.77        19
+
+    accuracy                           0.79        42
+   macro avg       0.78      0.79      0.78        42
+weighted avg       0.79      0.79      0.79        42
+
+Select - SVC
+
+# Drop 
+
+LogisticRegression() : 
+Training Accuracy :  0.8949196699956579
+Validation Accuracy :  0.8306636155606407
+
+DecisionTreeClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.6327231121281464
+
+RandomForestClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.8375286041189931
+
+GaussianNB() : 
+Training Accuracy :  0.8864524533217542
+Validation Accuracy :  0.8123569794050344
+
+SVC(probability=True) : 
+Training Accuracy :  0.9084889274858879
+Validation Accuracy :  0.8375286041189931
+
+  precision    recall  f1-score   support
+
+         0.0       0.80      0.70      0.74        23
+         1.0       0.68      0.79      0.73        19
+
+    accuracy                           0.74        42
+   macro avg       0.74      0.74      0.74        42
+weighted avg       0.75      0.74      0.74        42
+
+select Lr
+
+After all data preproscessing
+
+LogisticRegression() : 
+Training Accuracy :  0.894811115935736
+Validation Accuracy :  0.8306636155606407
+
+DecisionTreeClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.7025171624713958
+
+RandomForestClassifier() : 
+Training Accuracy :  1.0
+Validation Accuracy :  0.8363844393592678
+
+GaussianNB() : 
+Training Accuracy :  0.8847155883630047
+Validation Accuracy :  0.8077803203661328
+
+SVC(probability=True) : 
+Training Accuracy :  0.9095744680851063
+Validation Accuracy :  0.8421052631578947
+
+  precision    recall  f1-score   support
+
+         0.0       0.81      0.74      0.77        23
+         1.0       0.71      0.79      0.75        19
+
+    accuracy                           0.76        42
+   macro avg       0.76      0.76      0.76        42
+weighted avg       0.77      0.76      0.76        42
